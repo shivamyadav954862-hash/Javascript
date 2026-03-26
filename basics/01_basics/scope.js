@@ -71,5 +71,20 @@ const calculateTotal = (price1, price2) => {
 
 const calculatetotal = (price1, price2) => price1 + price2
 
-console.log(calculatetotal(200, 300))
+// console.log(calculatetotal(200, 300))
 
+// *******************IIFE********************
+
+(function(name){
+    console.log(`${name} logged in`)
+})("Shivam")
+
+
+
+(function(){
+    console.log("First")
+})();
+
+(function(){
+    console.log("Second")
+})()
